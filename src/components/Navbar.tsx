@@ -64,7 +64,7 @@ useEffect(() => {
           </li>
 
           <li>
-            <Link to='Farmers' className={`${styles.link} ${
+            <Link to="/Farmers" className={`${styles.link} ${
               color ? "after:bg-black" : "after:bg-white"
               }`}>
               Farmers
